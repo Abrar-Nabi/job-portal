@@ -1,0 +1,66 @@
+.employer-dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .employer-sidebar {
+    width: 220px;
+    background-color: #2d3436;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .employer-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employer-sidebar li {
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .employer-sidebar li:hover {
+    background-color: #636e72;
+  }
+  
+  .employer-main {
+    flex: 1;
+    padding: 30px;
+    background-color: #f1f2f6;
+    overflow-y: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .employer-dashboard {
+      flex-direction: column;
+    }
+  
+    .employer-sidebar {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+    }
+  
+    .employer-sidebar ul {
+      display: flex;
+      width: 100%;
+    }
+  
+    .employer-sidebar li {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .employer-main {
+      padding: 15px;
+    }
+  }
+  

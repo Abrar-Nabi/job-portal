@@ -1,0 +1,80 @@
+.most-demanding-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .category-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 1.2rem;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .category-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .job-count {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  .explore-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+  
+  .explore-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .explore-all-container {
+    display: flex;
+    justify-content: end;
+    margin: 30px 15px;
+  }
+  
+  .explore-all-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  

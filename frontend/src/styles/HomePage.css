@@ -1,0 +1,81 @@
+/* src/styles/HomePage.css */
+.home-page {
+    display: flex;
+    height: 100vh;
+    background-image: url('../assets/home-banner-bg.jpg'); /* You can set your background image here */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .left-section {
+    flex: 1;
+ 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+  }
+  .overlay {
+    text-align: center;
+    padding: 100px;
+    max-width: 600px;
+}
+  .subheading {
+    font-size: 16px;
+    color: #b0b0b0;
+  }
+  
+  .main-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .search-btn {
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: #444;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .man-image {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  

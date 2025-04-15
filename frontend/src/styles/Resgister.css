@@ -1,0 +1,22 @@
+.role-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .role-switch button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .role-switch button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  

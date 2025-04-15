@@ -1,0 +1,223 @@
+.recent-jobs-section {
+    padding: 60px 20px;
+    background-color: #f9fafc;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2f2f41;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    color: #7a7a8c;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .jobs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .job-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+  
+  .job-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: contain;
+    background-color: #f0f0f0;
+    padding: 5px;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2f2f41;
+    margin: 0;
+  }
+  
+  .job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    color: #7a7a8c;
+    margin-top: 5px;
+  }
+  
+  .employment-type {
+    color: #4a90e2;
+    font-weight: 500;
+    background-color: #eaf3ff;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  
+  .location,
+  .posted {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .job-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  .salary {
+    font-weight: 600;
+    color: #2f2f41;
+  }
+  
+  .apply-btn {
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .apply-btn:hover {
+    background-color: #3a78c2;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .job-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  
+    .job-right {
+      align-items: flex-start;
+    }
+  }
+  
+
+  .explore-all-wrapper {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+  
+  .explore-all-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .explore-all-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+    
+  .modal-content {
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #003c8f;
+  }
+  
+  .modal-content p {
+    margin: 8px 0;
+    font-size: 15px;
+    color: #444;
+  }
+  
+  .apply-now-modal-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-now-modal-btn:hover {
+    background: #004a99;
+  }
+  
+  .close-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    background: #999;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

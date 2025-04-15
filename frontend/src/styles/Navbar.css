@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 15px;
+    color: rgb(0, 0, 0);
+    position: relative;
+
+}
+.site-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #9ab7e8;
+  margin: 10px;
+  cursor: pointer;
+}
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .user-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+  
+  .user-name {
+    font-weight: 500;
+    margin-right: 0.4rem;
+  }
+  
+  .dropdown-arrow {
+    font-size: 1rem;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 38px;
+    right: -8px;
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px;
+    z-index: 10;
+}
+  
+  .dropdown-menu button {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
